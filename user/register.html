@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - SISTA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+  <div>
+    <header class="my-4 text-center">
+      <h1><a href="/">SISTA</a></h1>
+      <p>Sistem Informasi Seminar Tugas Akhir</p>
+    </header>
+
+    <nav class="text-center">
+      <a class="toli" href="/">Home</a>
+      <a class="toli" href="/seminar">Seminar</a>
+      <a class="toli" href="/user/login.html">Login</a>
+      <a class="toli" href="/user/register.html">Register</a>
+    </nav>
+  </div>
+
+  <main class="flex-shrink-0 my-auto">
+
+    <div class="container">
+      <div>
+        <h3 class="mb-4 text-center">Register</h3>
+        <form class="row g-3 bero p-4">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Nama depan</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Nama belakang</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Nim</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Password</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Verif Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="prodi" class="form-label">Prodi</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Pilih prodi kamu</option>
+              <option value="sistem-informasi">Sistem Informasi</option>
+              <option value="sistem-komunikasi">Sistem Komunikasi</option>
+              <option value="sistem-jaringan">Sistem Jaringan</option>
+              <option value="sistem-elektro">Sistem Elektro</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label for="prodi" class="form-label">Program</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Pilih program kamu</option>
+              <option value="d3">D3 Reguler</option>
+              <option value="d1r">S1 Reguler</option>
+              <option value="s1a">S1 Akselerasi</option>
+              <option value="s2">S2 Reguler</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" required>
+              <label class="form-check-label" for="gridCheck">
+                Saya setuju & tunduk pada peraturan yang ada di SISTA.
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="toli ms-0 d-inline-block">Register</button>
+            <p class="d-inline-block">Sudah punya akun? <a href="/user/login.html" class="lire">Login</a>
+            </p>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer mt-auto py-3 bg-light text-center">
+    <div class="container text-muted">
+      <span class="mx-2">Ilham</span>
+      <span class="mx-2">Rijal</span>
+      <span class="mx-2">Syahdan</span>
+      <span class="mx-2">Maulana</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

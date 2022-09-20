@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Seminar - SISTA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+  <main class="flex-shrink-0">
+
+    <div class="container">
+      <header class="my-5 mx-0 text-center">
+        <h1><a href="/">SISTA</a></h1>
+        <p>Sistem Informasi Seminar Tugas Akhir</p>
+      </header>
+
+      <nav class="my-5 text-center">
+        <a class="toli" href="/">Home</a>
+        <a class="toli" href="/seminar">Seminar</a>
+        <a class="toli" href="/user/login.html">Login</a>
+        <a class="toli" href="/user/register.html">Register</a>
+      </nav>
+
+      <div class="my-5">
+        <a class="toli ms-0" href="/seminar/buat.html">Tambah seminar baru</a>
+        <form class="my-4 bero p-4">
+          <h4 class="mb-4">Edit Seminar</h4>
+          <div class="mb-4">
+            <label for="nim" class="form-label">NIM</label>
+            <input type="text" class="form-control" id="nim" aria-describedby="nimHelp">
+            <div id="nimHelp" class="form-text">Nomor Induk Mahasantri.</div>
+          </div>
+          <div class="mb-4">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama">
+          </div>
+          <div class="mb-4">
+            <label for="prodi" class="form-label">Prodi</label>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Pilih prodi kamu</option>
+              <option value="sistem-informasi">Sistem Informasi</option>
+              <option value="sistem-komunikasi">Sistem Komunikasi</option>
+              <option value="sistem-jaringan">Sistem Jaringan</option>
+              <option value="sistem-elektro">Sistem Elektro</option>
+            </select>
+          </div>
+          <div class="mb-4">
+            <label for="tanggal" class="form-label">Tanggal</label>
+            <input type="date" class="form-control" id="tanggal">
+          </div>
+          <div class="mb-4">
+            <label for="jam" class="form-label">Jam</label>
+            <input type="time" class="form-control" id="jam">
+          </div>
+          <div class="mb-4">
+            <label for="judul" class="form-label">Judul</label>
+            <textarea class="form-control" aria-label="With textarea" id="judul"></textarea>
+          </div>
+          <div class="mb-4">
+            <label for="seminar" class="form-label">Seminar</label>
+            <select class="form-select" aria-label="seminar">
+              <option selected>Pilih jenis seminar</option>
+              <option value="sidang-proposal">Sidang proposal</option>
+              <option value="sidang-awal">Sidang awal</option>
+              <option value="sidang-akhir">Sidang akhir</option>
+            </select>
+          </div>
+          <div class="mb-4">
+            <label for="pembimbing" class="form-label">Pembimbing</label>
+            <select class="form-select" aria-label="Pembimbing">
+              <option selected>Pilih pembimbing</option>
+              <option value="fauzan">Ust. Fauzan</option>
+              <option value="fajri">Ust. Fajri</option>
+              <option value="febby">Ust. Febby</option>
+              <option value="Faruq">Ust. Faruq</option>
+            </select>
+          </div>
+          <div class="mb-4">
+            <label for="penguji1" class="form-label">Penguji 1</label>
+            <select class="form-select" aria-label="penguji1">
+              <option selected>Pilih penguji 1</option>
+              <option value="fauzan">Ust. Fauzan</option>
+              <option value="fajri">Ust. Fajri</option>
+              <option value="febby">Ust. Febby</option>
+              <option value="Faruq">Ust. Faruq</option>
+            </select>
+          </div>
+          <div class="mb-4">
+            <label for="penguji2" class="form-label">Penguji 2</label>
+            <select class="form-select" aria-label="penguji2">
+              <option selected>Pilih penguji 2</option>
+              <option value="fauzan">Ust. Fauzan</option>
+              <option value="fajri">Ust. Fajri</option>
+              <option value="febby">Ust. Febby</option>
+              <option value="Faruq">Ust. Faruq</option>
+            </select>
+          </div>
+          <button type="submit" class="toli ms-0">Update</button>
+          <button type="submit" class="toli ms-0">Hapus</button>
+        </form>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer mt-auto py-3 bg-light text-center">
+    <div class="container text-muted">
+      <span class="mx-2">Ilham</span>
+      <span class="mx-2">Rijal</span>
+      <span class="mx-2">Syahdan</span>
+      <span class="mx-2">Maulana</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
