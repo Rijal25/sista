@@ -16,39 +16,57 @@ Mahasiswa membuat prototype aplikasi web frontend dengan tema proyek Sistem Info
 ## Halaman desain mockup / wireframe SISTA
 
 <details><summary>1. Halaman landing page</summary>
-![Halaman Landing Page](images/sista-01.png)
+
+![Halaman Landing Page](./images/sista-01.png)
+
 </details>
 
 <details><summary>2. Halaman Jadwal Seminar TA</summary>
+
 ![Halaman Jadwal Seminar TA](images/sista-02.png)
+
 </details>
 
 <details><summary>3. Halaman Detail Jadwal Seminar TA</summary>
+
 ![Halaman Detail Jadwal Seminar TA](images/sista-03.png)
+
 </details>
 
 <details><summary>4. Halaman Pendaftaran Peserta Seminar TA</summary>
+
 ![Halaman Pendaftaran Peserta Seminar TA](images/sista-04.png)
+
 </details>
 
 <details><summary>5. Halaman Daftar Seminar TA</summary>
+
 ![Halaman Daftar Seminar TA](images/sista-05.png)
+
 </details>
 
 <details><summary>6. Halaman Login User</summary>
+
 ![Halaman Login User](images/sista-06.png)
+
 </details>
 
 <details><summary>7. Halaman Admin Kelola Daftar Seminar TA</summary>
+
 ![Halaman Admin Kelola Daftar Seminar TA](images/sista-07.png)
+
 </details>
 
 <details><summary>8. Halaman Admin Kelola Pemakalah Seminar TA</summary>
+
 ![Halaman Admin Kelola Pemakalah Seminar TA](images/sista-08.png)
+
 </details>
 
 <details><summary>9. Halaman Admin Kelola Daftar Peserta Seminar TA</summary>
+
 ![Halaman Admin Kelola Daftar Peserta Seminar TA](images/sista-09.png)
+
 </details>
 
 ## Beberapa halaman tambahan
@@ -57,6 +75,9 @@ Mahasiswa membuat prototype aplikasi web frontend dengan tema proyek Sistem Info
 2.  Halaman profil user
 3.  Halaman Admin Verifikasi Registrasi User
 4.  Halaman Admin Kelola Registrasi User
+
+## Deploy to Vercel
+- https://sista-cyan.vercel.app/
 
 ## Struktur SISTA yang kami buat
 - index.html
